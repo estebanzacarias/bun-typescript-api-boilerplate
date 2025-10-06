@@ -1,0 +1,43 @@
+{
+  "name": "bun-typescript-api-boilerplate",
+  "version": "1.0.0",
+  "description": "🚀 Modern Node.js API reference with Bun, TypeScript, JWT auth, and best practices",
+  "main": "index.ts",
+  "module": "index.ts",
+  "type": "module",
+  "keywords": ["nodejs", "typescript", "bun", "api", "jwt", "authentication", "boilerplate", "best-practices"],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "scripts": {
+    "dev": "bun run --hot index.ts",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/bcrypt": "^6.0.0",
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.19",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.6.2",
+    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "@typescript-eslint/parser": "^8.45.0",
+    "eslint": "^9.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-unused-imports": "^4.2.0",
+    "globals": "^16.4.0",
+    "jiti": "^2.6.1",
+    "typescript-eslint": "^8.45.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2",
+    "valibot": "^1.1.0"
+  }
+}
