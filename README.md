@@ -397,26 +397,6 @@ curl -X POST http://localhost:4000/characters \
 - [ ] CI/CD pipeline
 - [ ] Documentación con Swagger/OpenAPI
 
-## 🤝 Contribución
-
-Este proyecto está diseñado como referencia y punto de partida. Para contribuir:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
-
-## 🙏 Agradecimientos
-
-- Basado en tutorial de Node.js intensivo
-- Inspirado en mejores prácticas de la comunidad
-- Configuraciones optimizadas para Bun y TypeScript
-
 ---
 
 **Nota:** Este es un proyecto de referencia que demuestra configuraciones modernas, mejores prácticas y arquitectura escalable. Ideal para aprender, prototipar y como base para proyectos más complejos.
